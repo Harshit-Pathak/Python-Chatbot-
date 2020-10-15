@@ -1,0 +1,39 @@
+{"intents":[
+	{"tag":"greeting",
+	 "patterns":["Hi there","How are you","Is anyone there?","Hey","Hola","Hello","Good day"],
+         "responses":["Hello,thanks for asking","Good to see you again","Hi there,how can I help?"],
+         "context":[""]
+         },
+        {"tag":"goodbye",
+	 "patterns":["Bye","See you later","Goodbye","Nice chatting to you,bye","Till next time"],
+         "responses":["See you!","Have a nice day","Bye! Come back again soon."],
+         "context":[""]
+         },
+        {"tag":"thanks",
+	 "patterns":["Thanks","Thank you","That's helpful","Awesome, thanks","Thanks for helping me","Great, thanks"],
+         "responses":["Happy to help!","Anytime!","My pleasure"],
+         "context":[""]
+         },
+		 {"tag":"interaction",
+	 "patterns":["What is your name","In what language are you made?","What is your gender?","Who made you?"],
+         "responses":["My name is Healthadvisor, I am a chatbot made in python language by Harshit Pathak"],
+         "context":[""]
+         },
+        {"tag":"noanswer",
+	 "patterns":[],
+         "responses":["Sorry, can't understand you","Please give me more info","I did not understand"],
+         "context":[""]
+         },
+        {"tag":"options",
+	 "patterns":["How could you help me?" ,"What can you do?","What help do you provide?","What is your use?"],
+         "responses":["I can guide you to maintain a healthy lifestyle and what you need to do in order to achieve it"],
+         "context":[""]
+         },
+        {"tag":"health",
+	 "patterns":["How to maintain healthy lifestyle?","What should I eat?","How many times should I exercise?"],
+         "responses":["For achieving a healthy lifestyle you should exercise for atleast 30 mins a day, include fruits,green vegetables,nuts,dairy products in your diet and drink water regulary"],
+         "context":[""]
+         },
+	]
+}
+        
